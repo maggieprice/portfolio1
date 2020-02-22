@@ -12,15 +12,15 @@ function App() {
     <div className="App">
       <div className="App-header">
         <nav>
-        <Link className="links" to="/">Home</Link> 
-        <Link className="links" to="/skills">Skills</Link> 
+        <Link className="links" to="/Home">Home</Link> 
+        <Link className="links" to="/Skills" >Skills</Link> 
         <Link className="links" to="/projects">Projects</Link> 
         <Link className="links" to="/contact">Contact</Link> 
         </nav>
       </div>
-      <Home/>
       <Switch>
-      <Route path="/skills" component={Skills} />
+      <Route path="/Home" component={Home} />
+      <Route path="/Skills" component={Skills} />
       <Route path="/projects" component={Projects} />
       <Route path="/contact" component={Contact} />
       </Switch>
