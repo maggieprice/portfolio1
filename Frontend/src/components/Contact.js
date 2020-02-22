@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Contact = () =>{
+const Contact = () => {
     return (
         <div>
             <h1>We Should Hang Out...</h1>
@@ -12,6 +12,7 @@ const Contact = () =>{
                         <input name="name" type="text"  placeholder="Your Name" required/>
                         <input name="email" type="email"  placeholder="Your Email" required/>
                         <input name="message"  placeholder="Your Message" required/>
+                        <button type="submit">Send</button>
                     </form>
                 </div>
         </div>
