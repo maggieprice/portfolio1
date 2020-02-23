@@ -6,7 +6,7 @@ const Projects = () => {
 <div>
     <h1>Projects Portfoio</h1>
     <div className="Web Projects">
-        <h2>TEST Web Design Projects</h2>
+        <h2>Web Design Projects</h2>
         <div className="ui-projects">
             <h3>HTML/CSS</h3>
             {/* 1st build week project */}
